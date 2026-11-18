@@ -1,23 +1,40 @@
-# Zest & Ghar marketplace
+# 🍲 Zest & Ghar
 
-A Vite + React + Tailwind CSS project ready to deploy on Vercel.
+> **Zest & Ghar** is a modern, industry-grade culinary ecosystem web application that bridges the gap between commercial restaurant delivery and authentic, small-batch **Homemade Food ("Home Kitchens")**, alongside Dineout table bookings, Fresh Pantry staples, and Food on Train.
 
-## Deploy on Vercel
+---
 
-1. Extract this ZIP file.
-2. Put the `zest_ghar_vercel_upload` folder in a GitHub repository (or deploy it with the Vercel CLI).
-3. In Vercel, choose **Add New → Project** and import that repository.
-4. Set the project root to `zest_ghar_vercel_upload` if it is inside a larger repository. If it is the repository root, leave the root setting as `.`.
-5. Use these build settings (also present in `vercel.json`):
-   - Install command: `npm install`
-   - Build command: `npm run build`
-   - Output directory: `dist`
-6. Select **Deploy**.
+## 🚀 Key Features
 
-For a local preview, open a terminal in this folder and run `npm install`, then `npm run dev`.
+* **Dual-Marketplace Architecture:** Seamlessly switch between commercial restaurants and verified home-kitchens (*ghar ka khana*).
+* **Home Kitchen Mode ("Ghar Ka Khana"):** Features **"Meet the Chef"** profiles, FSSAI & Green-Shield hygiene badges, live batch scarcity counters, and an interactive **Tiffin Subscription & Pause Calendar**.
+* **"Cook It My Way" Wellness Customization:** Tailor dishes with custom sliders for oil level, spice level, pure ghee additions, and grain swaps.
+* **Zomato & Swiggy-Inspired Design System:** Built with a clean 65/20/10/5 color ratio (Alabaster white cards, Charcoal editorial text, Crimson Red primary actions, and Sunset Orange/Semantic Green accents).
+* **Google-Like Dynamic Search Suggestions:** Instant dropdown recommendations as you type dishes, ingredients, or cuisines.
+* **Clickable Recipe & Ingredient Modals:** Explore the fresh ingredients and traditional cooking methods behind every dish.
+* **Dineout Table Reservations & Fresh Pantry:** Dedicated views for table bookings with GIRF discounts and 15-minute express grocery/larder delivery.
+* **Working Slide-Over Cart & Group Bill Splitter:** Supports quantity adjustments, promo codes (`ZEST50`, `GHARKA20`, `FREEDEL`), and real-time friend group bill splitting.
+* **Role-Based Authentication:** Complete sign-in/registration modal supporting both **Food Lover / Customer** and **Home Chef Partner** roles (with a dedicated Home Chef Batch Management Dashboard).
 
-## Notes
+---
 
-- No environment variables are required for the current demo.
-- The demo saves account, cart, and other app state in the visitor's browser using local storage. It does not include a server-side database or real payment processing.
-- Food photos are loaded from external image URLs, so those images require an internet connection.
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, Vite
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Hosting & Deployment:** Vercel
+
+---
+
+## 📦 Project Structure
+
+```text
+zest-and-ghar/
+├── package.json
+├── vite.config.js
+├── vercel.json
+├── index.html
+└── src/
+    ├── main.jsx
+    └── App.jsx
